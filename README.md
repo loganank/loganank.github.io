@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-Run npm run deploy to update the pages branch and the website itself.
+Run npm run deploy to update the pages branch and the website itself. Navigate to the webpage at loganank.github.io/
 
 # Getting Started with Create React App
 
