@@ -2,13 +2,6 @@ import '../css/Socials.css';
 
 const Socials = ({ social_links }) => (
     <div class="socials">
-        <a href={social_links["instagram"]} target="_blank" rel="noreferrer"
-        ><img
-                src="icons/instagram.png"
-                alt="Instagram"
-                loading="lazy"
-                class="socicon"
-            /></a>
         <a href={social_links["linkedin"]} target="_blank" rel="noreferrer"
         ><img
                 src="icons/linkedin.png"

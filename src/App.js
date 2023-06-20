@@ -10,7 +10,7 @@ import 'animate.css';
 
 /*
  * Built by Logan Ankarberg
- * Followed tutorial by Kolade Chris at 
+ * Followed tutorial by Kolade Chris and then made necessary customizations at 
  * https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#whatisadeveloperportfoliowebsite
  */
 
@@ -20,7 +20,7 @@ function App() {
 
       <Nav title={"Logan Ankarberg"}></Nav>
       
-      <Hero image_path={"images/wfh_1.svg"}></Hero>
+      <Hero image_path={"images/hero.jpg"}></Hero>
 
       <MoreAbout></MoreAbout>
       
@@ -32,8 +32,7 @@ function App() {
 
       <Socials social_links={
         {
-          "instagram": "https://somelink",
-          "linkedin": "https://somelink",
+          "linkedin": "https://www.linkedin.com/in/logan-ankarberg-a6504b280",
           "github": "https://github.com/loganank",
         }
       }></Socials>
