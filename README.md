@@ -1,3 +1,7 @@
+# Developer Portfolio
+
+Run npm run deploy to update the pages branch and the website itself. To run locally, run npm start. Navigate to the webpage at loganank.github.io/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
