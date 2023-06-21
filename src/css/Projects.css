@@ -4,9 +4,12 @@
     margin-top: 2rem;
 }
 
-.project-pic {
-    width: 65%;
-    height: 60%;
+.project-portrait-pic {
+    width: 50%;
+}
+
+.project-landscape-pic {
+    width: 90%;
 }
 
 .projects-container {
@@ -42,6 +45,5 @@
     background-color: var(--bg-color);
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
     margin: 10px;
 }

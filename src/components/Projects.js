@@ -6,10 +6,27 @@ const Projects = ({ title }) => (
         <div class="projects-container">
             <div class="project-container project-card">
                 <img
+                    src="images/websiteBuilder.png"
+                    alt="website-builder"
+                    loading="lazy"
+                    class="project-landscape-pic"
+                />
+                <h3 class="project-title">Website Builder</h3>
+                <p class="project-details">
+                    This is a website will take an input of skills and text and other
+                    media to create an html page that the user can download. The goal
+                    of this is to create a simple way for developers to make a website
+                    to show off their skills.
+                </p>
+                <a href="https://github.com/loganank/WebsiteCreator"
+                  target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img
                     src="images/scavengerHunt.png"
                     alt="scavenger-hunt"
                     loading="lazy"
-                    class="project-pic"
+                    class="project-portrait-pic"
                 />
                 <h3 class="project-title">Scavenger Hunt</h3>
                 <p class="project-details">
@@ -22,27 +39,10 @@ const Projects = ({ title }) => (
             </div>
             <div class="project-container project-card">
                 <img
-                    src="images/websiteBuilder.png"
-                    alt="website-builder"
-                    loading="lazy"
-                    class="project-pic"
-                />
-                <h3 class="project-title">Website Builder</h3>
-                <p class="project-details">
-                    This is a website will take an input of skills and text and other
-                    media to create an html page that the user can download. The goal
-                    of this is to create a simple way for developers to make a website
-                    to show off their skills (It didn't create this website).
-                </p>
-                <a href="https://github.com/loganank/WebsiteCreator"
-                  target="_blank" class="project-link">Check it Out</a>
-            </div>
-            <div class="project-container project-card">
-                <img
                     src="images/textClassification.png"
                     alt="text-classification"
                     loading="lazy"
-                    class="project-pic"
+                    class="project-landscape-pic"
                 />
                 <h3 class="project-title">Text Classification</h3>
                 <p class="project-details">
