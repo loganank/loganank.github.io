@@ -1,65 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
-/* variables */
-
 body {
   margin: 0;
-  --font-family: 'Roboto';
-  --normal-font: 400;
-  --bold-font: 700;
-  --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --text-color: #262626;
-  --primary-color: #4756df;
-  --secondary-color: #000b5d;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
-  --bottom-margin: 0.5rem;
-  --bottom-margin-2: 1rem;
-  --line-height: 1.7rem;
-  --transition: 0.3s;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* Reset margin and padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-weight: var(--bold-font);
-  font-family: var(--font-family);
-  color: var(--primary-color);
-  background-color: var(--bg-color);
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  font-weight: var(--bold-font);
-  color: var(--primary-color);
-}
-
-a:hover {
-  color: var(--secondary-color);
-}
-
-p {
-  color: var(--text-color);
-  font-weight: var(--normal-font);
-}
-
-footer {
-  background-color: var(--bg-color);
-  padding: 1.25rem;
-  text-align: center;
-  margin: 2rem 0 0;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
