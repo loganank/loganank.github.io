@@ -24,7 +24,6 @@ const ContactMe = ({ title }) => {
                         <form id="contact-form" className="contact-form" ref={form} onSubmit={sendEmail}>
                             <h5 class="text-secondary-emphasis p-2">Name</h5>
                             <input
-                                type="text"
                                 id="name"
                                 name="sender-name"
                                 placeholder="Enter Your Name"
