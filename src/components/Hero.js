@@ -1,5 +1,3 @@
-import '../css/Hero.css';
-
 const Hero = ({ image_path }) => (
     <section class="hero" id="about">
         <img
