@@ -10,6 +10,7 @@ const ContactMe = ({ title }) => {
         emailjs.sendForm('service_zatv0ec', 'template_ornqcbh', form.current, 'rZmysJyP4UA7TLhyD')
             .then((result) => {
                 console.log(result.text);
+                form.current.reset();
             }, (error) => {
                 console.log(error.text);
             });
